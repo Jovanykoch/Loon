@@ -2,145 +2,96 @@
 
 # 🚀 Loon Rules
 
-**Curated Rule Sets for Loon**
+Optimized rule sets for **Loon**.
 
-Fast • Lightweight • Continuously Updated
+Lightweight • Fast • Continuously Updated
 
-[![GitHub Release](https://img.shields.io/github/v/release/Jovanykoch/Loon?style=for-the-badge)](https://github.com/Jovanykoch/Loon/releases)
-[![GitHub Downloads](https://img.shields.io/github/downloads/Jovanykoch/Loon/total?style=for-the-badge)](https://github.com/Jovanykoch/Loon/releases)
-[![License](https://img.shields.io/github/license/Jovanykoch/Loon?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Jovanykoch/Loon?style=for-the-badge)](https://github.com/Jovanykoch/Loon)
-
-A collection of optimized rule sets for **Loon**, designed to simplify traffic routing, improve performance, and enhance browsing experience.
+[![Stars](https://img.shields.io/github/stars/Jovanykoch/Loon?style=flat-square)](https://github.com/Jovanykoch/Loon/stargazers)
+[![License](https://img.shields.io/github/license/Jovanykoch/Loon?style=flat-square)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Jovanykoch/Loon?style=flat-square)](https://github.com/Jovanykoch/Loon/commits/main)
 
 </div>
 
 ---
 
-## ✨ Features
+## 📖 Overview
 
-- 🚫 Ad & tracker blocking
-- 🤖 OpenAI / ChatGPT support
-- 🪟 Microsoft services
-- 🔍 Google services
-- 🎓 Educational networks
-- 🇨🇳 China direct routing
-- 🏠 Local network rules
-- 🎵 ByteDance services
-- 🌍 Global proxy fallback
-- 🔄 Automatic updates via GitHub Actions
+This repository provides curated rule sets for **Loon**, helping you manage traffic routing, service-specific policies, and ad blocking with minimal configuration.
 
 ---
 
-## 📦 Available Rule Sets
+## 📦 Rule Sets
 
-| Rule Set | Purpose |
-|-----------|----------|
-| 🚫 Reject | Ads, trackers, analytics and unwanted requests |
-| 🤖 OpenAI | OpenAI, ChatGPT and related services |
-| 🪟 Microsoft | Microsoft ecosystem services |
-| 🔍 Google | Google products and infrastructure |
-| 🎓 Edu | Educational networks and services |
-| 🇨🇳 CN | Mainland China direct routing |
-| 🏠 LAN | Local Area Network traffic |
-| 🎵 ByteDance | ByteDance applications and services |
-| 🌍 Proxy | Final proxy fallback rules |
+| Rule | Description |
+|--------|-------------|
+| Reject | Ads, trackers, analytics, and unwanted requests |
+| OpenAI | OpenAI, ChatGPT, and related services |
+| Microsoft | Microsoft services and infrastructure |
+| Google | Google products and services |
+| Edu | Educational networks and platforms |
+| CN | Mainland China direct routing |
+| LAN | Local network traffic |
+| ByteDance | ByteDance services |
+| Proxy | Final proxy fallback rules |
 
 ---
 
-## 📡 Subscription URLs
+## 📡 Subscription
 
-### 🚫 Reject
+### Base URL
 
 ```text
-https://github.com/Jovanykoch/Loon/main/rules/Reject.list
+https://raw.githubusercontent.com/Jovanykoch/Loon/main/rules/
 ```
 
-### 🤖 OpenAI
+### Available Rules
+
+| Rule | Subscription Path |
+|--------|------------------|
+| Reject | `Reject.list` |
+| OpenAI | `OpenAI.list` |
+| Microsoft | `Microsoft.list` |
+| Google | `Google.list` |
+| Edu | `Edu.list` |
+| CN | `CN.list` |
+| LAN | `LAN.list` |
+| ByteDance | `ByteDance.list` |
+| Proxy | `Proxy.list` |
+
+### Example
 
 ```text
-https://github.com/Jovanykoch/Loon/mail/rules/OpenAI.list
-```
-
-### 🪟 Microsoft
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/Microsoft.list
-```
-
-### 🔍 Google
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/Google.list
-```
-
-### 🎓 Edu
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/Edu.list
-```
-
-### 🇨🇳 CN
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/CN.list
-```
-
-### 🏠 LAN
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/Lan.list
-```
-
-### 🎵 ByteDance
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/ByteDance.list
-```
-
-### 🌍 Proxy
-
-```text
-https://github.com/Jovanykoch/Loon/main/rules/Proxy.list
+https://raw.githubusercontent.com/Jovanykoch/Loon/main/rules/OpenAI.list
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Usage
 
-Open **Loon** and navigate to:
+In Loon:
 
 ```text
 Configuration
- └── Remote Rules
-      └── Add Rule
+ └─ Remote Rules
+     └─ Add Rule
 ```
 
-Paste the corresponding subscription URL and save.
+Paste the desired subscription URL and save.
 
 ---
 
-## 🔄 Automatic Updates
+## 🔄 Updates
 
-This repository is powered by:
+All rule sets are maintained directly in this repository.
 
-- GitHub Actions
-- GitHub Releases
-
-Whenever a rule set changes:
-
-1. Rules are rebuilt automatically
-2. A new release is published
-3. Existing subscription URLs remain unchanged
-
-Simply subscribe once and always receive the latest updates.
+Subscription URLs remain unchanged, allowing clients to receive updates automatically without reconfiguration.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Structure
 
 ```text
-.
+rules/
 ├── Reject.list
 ├── OpenAI.list
 ├── Microsoft.list
@@ -154,24 +105,14 @@ Simply subscribe once and always receive the latest updates.
 
 ---
 
-## 🌟 Support
+## 🤝 Contributing
 
-If you find this project useful:
+Issues and pull requests are welcome.
 
-- ⭐ Star this repository
-- 🍴 Fork and customize
-- 🐞 Submit issues and suggestions
+If this project helps you, consider giving it a ⭐.
 
 ---
 
 ## 📄 License
 
-Released under the MIT License.
-
----
-
-<div align="center">
-
-Made with ❤️ for the Loon Community
-
-</div>
+MIT License

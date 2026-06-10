@@ -1,50 +1,46 @@
 Loon Rules
 
-
-
 A collection of rule sets for Loon.
 
-Rule Sets
-
-Rule
-
-Description
+Available Rule Sets
 
 Reject
 
-Ad blocking, trackers and unwanted requests
+Ad blocking, trackers and unwanted requests.
 
-OpenAi
+OpenAI
 
-OpenAI and ChatGPT services
+OpenAI and ChatGPT services.
 
 Microsoft
 
-Microsoft services
+Microsoft services.
 
 Google
 
-Google services
+Google services.
 
 Edu
 
-Educational networks and services
+Educational networks and services.
 
 CN
 
-Mainland China direct connection
+Mainland China direct connection.
 
-Lan
+LAN
 
-Local Area Network (LAN)
+Local Area Network.
 
 ByteDance
 
-ByteDance services
+ByteDance services.
 
 Proxy
 
-Final proxy fallback rules
+Final proxy fallback rules.
+
+⸻
 
 Subscription URLs
 
@@ -52,7 +48,7 @@ Reject
 
 https://github.com/Jovanykoch/Loon/releases/latest/download/Reject.list
 
-OpenAi
+OpenAI
 
 https://github.com/Jovanykoch/Loon/releases/latest/download/OpenAi.list
 
@@ -72,7 +68,7 @@ CN
 
 https://github.com/Jovanykoch/Loon/releases/latest/download/CN.list
 
-Lan
+LAN
 
 https://github.com/Jovanykoch/Loon/releases/latest/download/Lan.list
 
@@ -84,47 +80,31 @@ Proxy
 
 https://github.com/Jovanykoch/Loon/releases/latest/download/Proxy.list
 
+⸻
+
 Usage
 
-Add the rule set in Loon:
+Open Loon and navigate to:
 
-Configuration
-└── Remote Rules
-    └── Add Rule
+Configuration → Remote Rules → Add Rule
 
 Paste the corresponding subscription URL.
 
-Repository Structure
+⸻
 
-Loon
-└── rules
-    ├── Reject.list
-    ├── OpenAi.list
-    ├── Microsoft.list
-    ├── Google.list
-    ├── Edu.list
-    ├── CN.list
-    ├── Lan.list
-    ├── ByteDance.list
-    └── Proxy.list
+Auto Update
 
-Auto Release
+This repository uses GitHub Releases.
 
-This repository uses GitHub Actions to automatically publish a new Release whenever any rule file is updated.
+Whenever a rule file is updated, a new release will be automatically generated through GitHub Actions.
 
-After modifying rule files:
+Users can always use the same subscription URL and receive the latest version automatically.
 
-git add .
-git commit -m "update rules"
-git push
+⸻
 
-GitHub Actions will automatically:
+Repository
 
-Create a new Release
-
-Upload all .list files
-
-Update the latest Release assets
+https://github.com/Jovanykoch/Loon
 
 License
 

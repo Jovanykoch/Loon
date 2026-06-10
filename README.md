@@ -2,7 +2,7 @@
 
 # 🚀 Loon Rules
 
-https://gravatar.com/sweetlyfading65a2bf722d
+
 
 Optimized rule sets for **Loon**.
 

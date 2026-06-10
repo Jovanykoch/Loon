@@ -1,0 +1,19 @@
+{
+  "id": "1781085963753-vaa7zkpk1",
+  "title": "update README.md",
+  "messages": [
+    {
+      "id": "9e3e8d0c-a73e-4053-ba82-c3e6285933cf",
+      "role": "user",
+      "content": "update README.md",
+      "timestamp": 1781085985193,
+      "attachedContexts": []
+    }
+  ],
+  "createdAt": 1781085963753,
+  "updatedAt": 1781085985194,
+  "repoOwner": "Jovanykoch",
+  "repoName": "Loon",
+  "branch": "main",
+  "filePath": "chats/1781085963753.json"
+}

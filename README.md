@@ -30,7 +30,7 @@ This repository provides curated rule sets for **Loon**, helping you manage traf
 | Google | Google products and services |
 | Edu | Educational networks and platforms |
 | CN | Mainland China direct routing |
-| LAN | Local network traffic |
+| Lan | Local network traffic |
 | ByteDance | ByteDance services |
 | Proxy | Final proxy fallback rules |
 
@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/Jovanykoch/Loon/main/rules/
 | Google | `Google.list` |
 | Edu | `Edu.list` |
 | CN | `CN.list` |
-| LAN | `LAN.list` |
+| Lan | `LAN.list` |
 | ByteDance | `ByteDance.list` |
 | Proxy | `Proxy.list` |
 
@@ -98,7 +98,7 @@ rules/
 ├── Google.list
 ├── Edu.list
 ├── CN.list
-├── LAN.list
+├── Lan.list
 ├── ByteDance.list
 └── Proxy.list
 ```

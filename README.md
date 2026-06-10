@@ -53,55 +53,55 @@ A collection of optimized rule sets for **Loon**, designed to simplify traffic r
 ### 🚫 Reject
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/Reject.list
+https://github.com/Jovanykoch/Loon/main/rules/Reject.list
 ```
 
 ### 🤖 OpenAI
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/OpenAI.list
+https://github.com/Jovanykoch/Loon/mail/rules/OpenAI.list
 ```
 
 ### 🪟 Microsoft
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/Microsoft.list
+https://github.com/Jovanykoch/Loon/main/rules/Microsoft.list
 ```
 
 ### 🔍 Google
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/Google.list
+https://github.com/Jovanykoch/Loon/main/rules/Google.list
 ```
 
 ### 🎓 Edu
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/Edu.list
+https://github.com/Jovanykoch/Loon/main/rules/Edu.list
 ```
 
 ### 🇨🇳 CN
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/CN.list
+https://github.com/Jovanykoch/Loon/main/rules/CN.list
 ```
 
 ### 🏠 LAN
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/LAN.list
+https://github.com/Jovanykoch/Loon/main/rules/Lan.list
 ```
 
 ### 🎵 ByteDance
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/ByteDance.list
+https://github.com/Jovanykoch/Loon/main/rules/ByteDance.list
 ```
 
 ### 🌍 Proxy
 
 ```text
-https://github.com/Jovanykoch/Loon/releases/latest/download/Proxy.list
+https://github.com/Jovanykoch/Loon/main/rules/Proxy.list
 ```
 
 ---
